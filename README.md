@@ -1,6 +1,25 @@
-
+<p align="center">
+  <a href="https://hgithub.xyz/LinYuanovo/pikpak_auto_invite">
+    <img src="https://raw.hgithub.xyz/LinYuanovo/pic_bed/main/pikpak_auto_invite/faviconV2.png" alt="Logo" width="80" height="80">
+  </a>
   <h1 align="center">PikPak自动邀请</h1>
+  <p align="center">
+    ·
+    <a href="https://hgithub.xyz/LinYuanovo/pikpak_auto_invite/issues">报告Bug</a>
+    ·
+    <a href="https://hgithub.xyz/LinYuanovo/pikpak_auto_invite/issues">提出新特性</a>
+  </p>
+</p>
 
+
+<!-- PROJECT SHIELDS -->
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+
+<!-- PROJECT LOGO -->
 
 ## 目录
 
@@ -15,7 +34,7 @@
 
 临渊
 
-邮箱：<1577242215@qq.com>
+
 
 ### 上手指南
 
@@ -112,3 +131,18 @@ pikpak_auto_invite
 
 ### 说明
 
+
+- 项目依赖于GitHub Actions运行，不会泄露你的邀请码
+- 官方限制现在邀请的会员掉了人数也不会掉，所以邀请之前请查看自己人数是否超**50**人
+
+<!-- links -->
+
+[your-project-path]:LinYuanovo/pikpak_auto_invite
+[contributors-shield]: https://img.shields.io/github/contributors/LinYuanovo/pikpak_auto_invite.svg?style=flat-square
+[contributors-url]: https://github.com/LinYuanovo/pikpak_auto_invite/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/LinYuanovo/pikpak_auto_invite.svg?style=flat-square
+[forks-url]: https://github.com/LinYuanovo/pikpak_auto_invite/network/members
+[stars-shield]: https://img.shields.io/github/stars/LinYuanovo/pikpak_auto_invite.svg?style=flat-square
+[stars-url]: https://github.com/LinYuanovo/pikpak_auto_invite/stargazers
+[issues-shield]: https://img.shields.io/github/issues/LinYuanovo/pikpak_auto_invite.svg?style=flat-square
+[issues-url]: https://img.shields.io/github/issues/LinYuanovo/pikpak_auto_invite.svg
