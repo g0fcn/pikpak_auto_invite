@@ -1,17 +1,17 @@
 <p align="center">
-  <a href="https://github.com/LinYuanovo/pikpak_auto_invite">
-    <img src="https://raw.githubusercontent.com/LinYuanovo/pic_bed/main/pikpak_auto_invite/faviconV2.png" alt="Logo" width="80" height="80">
+  <a href="https://hgithub.xyz/LinYuanovo/pikpak_auto_invite">
+    <img src="https://raw.hgithub.xyz/LinYuanovo/pic_bed/main/pikpak_auto_invite/faviconV2.png" alt="Logo" width="80" height="80">
   </a>
   <h1 align="center">PikPak自动邀请</h1>
   <p align="center">
     ·
-    <a href="https://github.com/LinYuanovo/pikpak_auto_invite/issues">报告Bug</a>
+    <a href="https://hgithub.xyz/LinYuanovo/pikpak_auto_invite/issues">报告Bug</a>
     ·
-    <a href="https://github.com/LinYuanovo/pikpak_auto_invite/issues">提出新特性</a>
+    <a href="https://hgithub.xyz/LinYuanovo/pikpak_auto_invite/issues">提出新特性</a>
   </p>
 </p>
 
-基于bilibili平台UP主[纸鸢花的花语](https://space.bilibili.com/67788420/)所公开的源码以及其群管理Atong的pikpak临时碰撞版脚本进行修改的PikPak自动邀请程序，附带图像识别过验证码
+
 
 <!-- PROJECT SHIELDS -->
 
@@ -76,7 +76,7 @@ pip install -r requirements.txt
 python run.py
 ```
 
-![效果演示](https://raw.githubusercontent.com/LinYuanovo/pic_bed/main/pikpak_auto_invite/7c010670-6d0c-41c0-8ad5-d6dab5e6bf02.png)
+![效果演示](https://raw.hgithub.xyz/LinYuanovo/pic_bed/main/pikpak_auto_invite/7c010670-6d0c-41c0-8ad5-d6dab5e6bf02.png)
 
 如果需要查看请求返回信息，请将主程序`run.py`的`DEBUG_MODE`参数设为True
 
@@ -88,27 +88,27 @@ python run.py
 
 1. 点击项目右上角进行**fork**，也可以顺手点个**star**
 
-    ![对项目进行fork](https://raw.githubusercontent.com/LinYuanovo/pic_bed/main/pikpak_auto_invite/f43174c1-1576-4ab0-b86f-31355b400887.png)
+    ![对项目进行fork](https://raw.hgithub.xyz/LinYuanovo/pic_bed/main/pikpak_auto_invite/f43174c1-1576-4ab0-b86f-31355b400887.png)
 
 2. 然后点击你fork的项目中的**Settings**，找到**Secrets and variables**，选中**Actions**里的**New repository secret**添加一个环境变量，名称必须为**INVITE_CODE**，内容就填你的邀请码
 
-    ![添加变量](https://raw.githubusercontent.com/LinYuanovo/pic_bed/main/pikpak_auto_invite/8ad57054-1c8b-4100-8e24-ab8d6ef51899.png)
+    ![添加变量](https://raw.hgithub.xyz/LinYuanovo/pic_bed/main/pikpak_auto_invite/8ad57054-1c8b-4100-8e24-ab8d6ef51899.png)
 
-    ![添加变量](https://raw.githubusercontent.com/LinYuanovo/pic_bed/main/pikpak_auto_invite/1a702216-0a12-44c4-8067-54eb8e34e7c5.png)
+    ![添加变量](https://raw.hgithub.xyz/LinYuanovo/pic_bed/main/pikpak_auto_invite/1a702216-0a12-44c4-8067-54eb8e34e7c5.png)
 
 3. 点击你项目上方的**Actions**，第一次打开可能需要点击 `I understand...`，来启用actions
 
 4. 提交修改来触发Actions，建议直接修改`run.py`，在空白的地方输入一次换行**commit**提交即可
 
-    ![修改run.py](https://raw.githubusercontent.com/LinYuanovo/pic_bed/main/pikpak_auto_invite/44e7cf20-658a-4400-99a3-35babc2d5834.png)
+    ![修改run.py](https://raw.hgithub.xyz/LinYuanovo/pic_bed/main/pikpak_auto_invite/44e7cf20-658a-4400-99a3-35babc2d5834.png)
 
-    ![提交修改](https://raw.githubusercontent.com/LinYuanovo/pic_bed/main/pikpak_auto_invite/cca72584-36be-4b16-b0bb-141899eaa1b5.png)
+    ![提交修改](https://raw.hgithub.xyz/LinYuanovo/pic_bed/main/pikpak_auto_invite/cca72584-36be-4b16-b0bb-141899eaa1b5.png)
 
 5. 点开**Actions**查看运行日志
 
-    ![查看日志](https://raw.githubusercontent.com/LinYuanovo/pic_bed/main/pikpak_auto_invite/3e58af4c-bf57-496c-9129-d237fd0aae7d.png)
+    ![查看日志](https://raw.hgithub.xyz/LinYuanovo/pic_bed/main/pikpak_auto_invite/3e58af4c-bf57-496c-9129-d237fd0aae7d.png)
 
-    ![查看日志](https://raw.githubusercontent.com/LinYuanovo/pic_bed/main/pikpak_auto_invite/2cbadd33-bb64-4619-bc38-f86b3bd59ed8.png)
+    ![查看日志](https://raw.hgithub.xyz/LinYuanovo/pic_bed/main/pikpak_auto_invite/2cbadd33-bb64-4619-bc38-f86b3bd59ed8.png)
 
     至此操作完成，每天早十点、晚六点十分各定时执行一次（可以自己到`/.github/workflows/run.yml`中修改定时），可以以同样方式进入**Actions**查看日志
 
@@ -132,18 +132,3 @@ pikpak_auto_invite
 
 ### 说明
 
-- 本项目仅仅只是在UP主[纸鸢花的花语](https://space.bilibili.com/67788420/)所公开的源码以及其群管理Atong的脚本基础上进行简单修改，加入了图像识别处理验证码，并未进行任何架构上的更改。上传本项目也仅为了用于学习研究以及备份，无任何不良引导，如有侵权请联系我进行删除。如果项目对你有帮助欢迎点点star。
-- 项目依赖于GitHub Actions运行，不会泄露你的邀请码
-- 官方限制现在邀请的会员掉了人数也不会掉，所以邀请之前请查看自己人数是否超**50**人
-
-<!-- links -->
-
-[your-project-path]:LinYuanovo/pikpak_auto_invite
-[contributors-shield]: https://img.shields.io/github/contributors/LinYuanovo/pikpak_auto_invite.svg?style=flat-square
-[contributors-url]: https://github.com/LinYuanovo/pikpak_auto_invite/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/LinYuanovo/pikpak_auto_invite.svg?style=flat-square
-[forks-url]: https://github.com/LinYuanovo/pikpak_auto_invite/network/members
-[stars-shield]: https://img.shields.io/github/stars/LinYuanovo/pikpak_auto_invite.svg?style=flat-square
-[stars-url]: https://github.com/LinYuanovo/pikpak_auto_invite/stargazers
-[issues-shield]: https://img.shields.io/github/issues/LinYuanovo/pikpak_auto_invite.svg?style=flat-square
-[issues-url]: https://img.shields.io/github/issues/LinYuanovo/pikpak_auto_invite.svg
