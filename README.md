@@ -1,23 +1,6 @@
 
   <h1 align="center">PikPak自动邀请</h1>
-  <p align="center">
-    ·
-    <a href="https://hgithub.xyz/LinYuanovo/pikpak_auto_invite/issues">报告Bug</a>
-    ·
-    <a href="https://hgithub.xyz/LinYuanovo/pikpak_auto_invite/issues">提出新特性</a>
-  </p>
-</p>
 
-
-
-<!-- PROJECT SHIELDS -->
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-
-<!-- PROJECT LOGO -->
 
 ## 目录
 
