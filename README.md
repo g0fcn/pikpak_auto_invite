@@ -1,7 +1,4 @@
-<p align="center">
-  <a href="https://hgithub.xyz/LinYuanovo/pikpak_auto_invite">
-    <img src="https://raw.hgithub.xyz/LinYuanovo/pic_bed/main/pikpak_auto_invite/faviconV2.png" alt="Logo" width="80" height="80">
-  </a>
+
   <h1 align="center">PikPak自动邀请</h1>
   <p align="center">
     ·
